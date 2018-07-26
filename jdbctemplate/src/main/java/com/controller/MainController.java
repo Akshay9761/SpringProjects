@@ -41,6 +41,8 @@ public class MainController {
 	  return new ModelAndView("emplist", "emplist", emplist);  
 	 }  
 	 
+	
+	
 	 @RequestMapping(value="/delete", method=RequestMethod.GET)  
 	 public String deleteUser(@RequestParam String id) {  
 	  System.out.println("id = " + id);  
