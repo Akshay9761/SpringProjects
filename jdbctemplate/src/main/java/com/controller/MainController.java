@@ -22,11 +22,9 @@ public class MainController {
 		
 		return "index";
 	}
-	
 	@RequestMapping(value="/register",method=RequestMethod.GET)
 	
 	public String registerPage(){
-		
 		return "register";
 	}
 	
@@ -49,5 +47,4 @@ public class MainController {
 	  empSer.deleteData(id);  
 	  return "redirect:/getList";  
 	 }  
-
 }
